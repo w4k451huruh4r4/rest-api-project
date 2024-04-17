@@ -1,3 +1,4 @@
 <?php
-echo phpinfo();
+header("Content-Type: application/json");
+phpinfo();
 ?>
